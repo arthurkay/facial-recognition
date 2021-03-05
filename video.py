@@ -19,7 +19,7 @@ arthur_image = face_recognition.load_image_file("images/train/arthur.png")
 arthur_face_encoding = face_recognition.face_encodings(arthur_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
-crispin_image = face_recognition.load_image_file("images/train/junior.jpg")
+crispin_image = face_recognition.load_image_file("images/train/nrc.jpg")
 crispin_face_encoding = face_recognition.face_encodings(crispin_image)[0]
 
 # Create arrays of known face encodings and their names
